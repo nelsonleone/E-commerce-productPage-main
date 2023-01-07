@@ -447,7 +447,7 @@ header{
 
 @media (min-width:70rem) {
   header{
-    max-width:90%;
+    max-width:92%;
     margin-inline:auto;
     padding-block:1.5em 2.5em;
     border-bottom: 1px solid var(--lightGrayish-Blue);
@@ -455,6 +455,7 @@ header{
   .logo{
     z-index:2 !important;
     position:relative;
+    display:block;
   }
 
   header nav{
@@ -469,7 +470,7 @@ header{
   .top-nav,
   .top-nav  ul{
     position: unset;
-    width:50% !important;
+    width:auto !important;
     height:auto;
     background:transparent !important;
     padding:0;
