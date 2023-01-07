@@ -455,13 +455,15 @@ header{
   }
   .logo{
     max-width:100%;
+    z-index:100;
+    overflow:visible;
   }
 
   header nav{
     z-index:1;
     width:100%;
     display:flex;
-    justify-content: space-evenly;
+    justify-content:center;
   }
   .toggle-menu{
     display:none;
