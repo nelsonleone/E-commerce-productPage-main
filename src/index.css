@@ -404,6 +404,11 @@ header{
   cursor: pointer;
 }
 
+.cart-icon:hover path,
+.cart-icon:focus path{
+  fill:  var(--pmy-Orange);
+}
+
 
 
 
