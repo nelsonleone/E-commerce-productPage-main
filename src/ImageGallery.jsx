@@ -80,15 +80,17 @@ export default function ImageGallery(props){
                <img 
                src="/images/icon-previous.svg"
                aria-controls="full-image"
+               alt="see prev image"
                />
             </button>
 
-           <img src={fullImage} id="full-image" className="full-image" onClick={() =>props.setLighboxDisplay(true)}/>
+           <img src={fullImage} id="full-image" className="full-image"  alt="full product image view" onClick={() =>props.setLighboxDisplay(true)}/>
           
            <button className="scroll-btn" onClick={scrollImages} data-next>
                <img 
                src="/images/icon-next.svg"
                aria-controls="full-image"
+               alt="see next image"
                />
             </button>
          </div>
