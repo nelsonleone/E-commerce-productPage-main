@@ -461,6 +461,8 @@ header{
 
   header nav{
     display:flex;
+    background:transparent;
+    width:100%;
   }
   .toggle-menu{
     display:none;
