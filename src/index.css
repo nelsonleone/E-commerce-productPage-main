@@ -453,7 +453,7 @@ header{
     border-bottom: 1px solid var(--lightGrayish-Blue);
   }
   .logo{
-    max-width:100%;
+    z-index:2;
   }
 
   p{
@@ -475,6 +475,7 @@ header{
     height:auto;
     background:none;
     padding:0;
+    z-index:1;
   }
   .top-nav ul li{
     display:inline-block !important;
