@@ -447,11 +447,10 @@ header{
 
 @media (min-width:70rem) {
   header{
-    max-width:95%;
+    max-width:90%;
     margin-inline:auto;
     padding-block:1.5em 2.5em;
     border-bottom: 1px solid var(--lightGrayish-Blue);
-    padding-inline:0;
   }
   .logo{
     max-width:100%;
