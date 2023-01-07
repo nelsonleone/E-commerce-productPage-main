@@ -9,11 +9,11 @@ export default function OrderSection(props){
 
    function handleAddToCart(){
       props.addToCart(true)
+      props.setOrderCount(prev => prev + props.inputValue)
       props.setInputValue(0)
       setOrderMessage(true)
       setTimeout(() => {
          setOrderMessage(false)
-         props.setOrderCount(props.inputValue)
       }, 1500);
    }  
 
