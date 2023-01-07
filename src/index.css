@@ -467,11 +467,11 @@ header{
     margin-left:3em;
   }
   .top-nav,
-  .top-nav > ul{
+  .top-nav  ul{
     position: unset;
-    width:auto !important;
+    width:50% !important;
     height:auto;
-    background:none;
+    background:transparent !important;
     padding:0;
     z-index:1 !important;
   }
