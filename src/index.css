@@ -549,6 +549,7 @@ header{
     border-radius: 20px;
     cursor: pointer !important;
     position: unset;
+    width:25rem;
   }
   .image-thumbnails{
     display:flex;
