@@ -453,22 +453,22 @@ header{
     border-bottom: 1px solid var(--lightGrayish-Blue);
   }
   .logo{
-    z-index:2 !important;
-    position:relative;
-    display:block;
-    max-width:50%;
+    max-width:100%;
   }
 
   header nav{
     display:flex;
     background:transparent;
+    z-index:1;
     width:100%;
+    padding:0;
   }
   .toggle-menu{
     display:none;
   }
   .top-nav{
     margin-left:3em;
+    max-width:80%;
   }
   .top-nav,
   .top-nav  ul{
