@@ -447,7 +447,7 @@ header{
 
 @media (min-width:70rem) {
   header{
-    max-width:92%;
+    max-width:95%;
     margin-inline:auto;
     padding-block:1.5em 2.5em;
     border-bottom: 1px solid var(--lightGrayish-Blue);
@@ -456,6 +456,7 @@ header{
     z-index:2 !important;
     position:relative;
     display:block;
+    max-width:50%;
   }
 
   header nav{
