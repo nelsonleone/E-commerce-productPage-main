@@ -453,12 +453,10 @@ header{
     border-bottom: 1px solid var(--lightGrayish-Blue);
   }
   .logo{
-    z-index:2;
+    z-index:2 !important;
+    position:relative;
   }
 
-  p{
-    line-height: 29px;
-  }
   header nav{
     display:flex;
   }
@@ -475,7 +473,7 @@ header{
     height:auto;
     background:none;
     padding:0;
-    z-index:1;
+    z-index:1 !important;
   }
   .top-nav ul li{
     display:inline-block !important;
@@ -505,6 +503,7 @@ header{
   .order-section{
     max-width:40%;
     margin-left:7em;
+    margin-top:1em;
   }
   .price-details{
     display:block;
@@ -550,7 +549,7 @@ header{
     border-radius: 20px;
     cursor: pointer !important;
     position: unset;
-    width:25rem;
+    width:26rem;
   }
   .image-thumbnails{
     display:flex;
@@ -559,7 +558,7 @@ header{
     margin-top:.8em;
   }
   .image-thumbnails img{
-    width:6rem;
+    width:5rem;
     border-radius: 10px;
     transition: .3s linear;
     cursor: pointer;
